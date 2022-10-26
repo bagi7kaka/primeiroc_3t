@@ -8,10 +8,15 @@
 <script src="estudo.js"></script>
 
 </head>
+
 <body>
-   valor: <input id="valor" type="text"><br>
-   Juros(Mensais): <input id="juros" type="text"><br>
-   N°. de Messes: <input id="messes" type="text"><br>
+    <div classe="calc">
+
+        <span id="totalGeral">Total:0,00<span><br>
+
+   valor: <input id="valor" placeholder="capital" type="text"><br>
+   Juros(Mensais): <input id="juros" placeholder="% mes" type="text"><br>
+   N°. de Messes: <input id="messes" placeholder="tempo" type="text"><br>
    <button onclick="mat()">Enviar</button>
 
    <br><br><br><br>
@@ -23,5 +28,6 @@
    <button onclick="soma()">calcular Soma</button>
    <button onclick="subtração()">calcular subtração</button>
 </body>
+
 </html>
 
