@@ -5,29 +5,31 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Primeiro D</title>
+   <title>Primeiro C</title>
    <script src="estudo.js"></script>
    <link rel="stylesheet" href="geral.css">
 </head>
 
 <body>
-   <input type="checkbox" id="calcFin">
+   <input type="checkbox" name="" id="calcFin">
 
    <div id="calculadora">
-      <label for="calcFin"><h3>Financeira</h3></label>
-      div class="calcF"
-      <div id="spTotal">
-         <span id="total">0,00</span><br>
+      <label for="calcFin">
+         <h3>Financeiro</h3>
+      </label>
+      <div class="calcF">
+         <div id="sptotal">
+            <span id="total">Total: 0,00</span><br>
+         </div>
+         Capital: <input id="valor" type="text"> <br>
+         Juros Mensais: <input id="juros" type="text"> <br>
+         Nr. de Meses: <input id="meses" type="text"> <br>
+         <button onclick="total()">Calcula</button>
       </div>
-      Capital: <input id="valor" type="text"> <br>
-      Juros Mensais: <input id="juros" type="text"> <br>
-      Nr. de Meses: <input id="meses" type="text"> <br>
-      <button onclick="total()">Calcula</button>
-      <button onclick="limpar()">Limpar</button>
-      <div class="spLista">
+      <div class="splista">
          <span id="mes"></span>
       </div>
-
+      </div>
    </div>
 
 </body>
